@@ -1,0 +1,11 @@
+.mobile-background {
+    background-image: url('../../public/image/mobile.jpg');
+  }
+
+.web-background {
+    background-color: rgb(40, 61, 120);
+  }
+
+.background {
+  background-color: rgb(40, 61, 120);
+  }
