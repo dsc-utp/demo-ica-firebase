@@ -1,11 +1,27 @@
+
 .mobile-background {
-    background-image: url('../../public/image/mobile.jpg');
+  background-image: url('/public/image/mobile.jpg');
   }
 
-.web-background {
-    background-color: rgb(40, 61, 120);
+  .background {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg, #6681ea, #384681, #24107b, #292f56);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
   }
+  
+  
 
-.background {
-  background-color: rgb(40, 61, 120);
+  @keyframes color {
+    0% {
+      background-position: 0 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0 50%;
+    }
   }
+  
